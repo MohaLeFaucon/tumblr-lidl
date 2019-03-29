@@ -1,0 +1,26 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-config-airbnb",
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "member-access": [true, "no-public"],
+    "interface-name": [false],
+    "jsx-boolean-value": ["never"],
+    "no-console": [true, "warn"],
+    "semicolon": [true, "never"],
+    "variable-name": false,
+    "trailing-comma": [
+      true,
+      { "multiline": "always", "singleline": "never", "esSpecCompliant": true }
+    ],
+    "arrow-parens": true,
+    "ter-arrow-parens": false,
+    "object-literal-sort-keys": false
+  },
+  "rulesDirectory": []
+}

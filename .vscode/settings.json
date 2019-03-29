@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.trailingComma": "es5",
+  "prettier.tslintIntegration": true
+}
